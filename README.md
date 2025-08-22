@@ -1,8 +1,8 @@
-# Task-5-Energy-Consumption-Time-Series-Forecasting
+# Task-5-Energy-Consumption-Time-Series-Forecasting:
    This project focuses on forecasting household electricity consumption using **time series models** and **machine learning**.
 We experiment with **ARIMA**, **Facebook Prophet**, and **XGBoost** to predict energy demand and compare their performance.
 
-## Dataset
+## Dataset:
 We use the **Individual Household Electric Power Consumption Dataset**, which records electricity usage from a single house over four years (2006–2010).
 * **File:** `household_power_consumption.txt`
 * **Frequency:** 1-minute measurements
@@ -39,7 +39,7 @@ We resample the data into **hourly averages** for easier modeling.
 * **MAE (Mean Absolute Error)** – average magnitude of errors
 * **RMSE (Root Mean Squared Error)** – penalizes larger errors
 
-## Results
+## Results:
 After training and testing on the last 30 days of data:
 * All models produce forecasts, but their accuracy differs.
 * Results are compared using **MAE** and **RMSE**, and plotted visually.
